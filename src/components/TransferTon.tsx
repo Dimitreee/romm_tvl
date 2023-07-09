@@ -9,13 +9,13 @@ export function TransferTon() {
 
   const [tonAmount, setTonAmount] = useState("0.01");
   const [tonRecipient, setTonRecipient] = useState(
-    "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c"
+    "EQAAIUjdWnA9kahmXlLZEnGztEWtVw6eiQxRiNrkWA3cArwx"
   );
 
   return (
     <Card>
       <FlexBoxCol>
-        <h3>Transfer TON</h3>
+        <h3>Give me money Sarah Chong</h3>
         <FlexBoxRow>
           <label>Amount </label>
           <Input

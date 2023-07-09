@@ -34,7 +34,7 @@ function App() {
       <AppContainer>
         <FlexBoxCol>
           <FlexBoxRow>
-            <TonConnectButton />
+            {/*<TonConnectButton />*/}
             <Button>
               {network
                 ? network === CHAIN.MAINNET
@@ -43,9 +43,9 @@ function App() {
                 : "N/A"}
             </Button>
           </FlexBoxRow>
-          <Counter />
+          {/*<Counter />*/}
           <TransferTon />
-          <Jetton />
+          {/*<Jetton />*/}
         </FlexBoxCol>
       </AppContainer>
     </StyledApp>
